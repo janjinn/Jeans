@@ -189,3 +189,48 @@ section {
   border-radius: 42px;
   background: rgb(255, 255, 255);
 }
+
+/*----- testimonial section -----*/
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.post-board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.post-board article:nth-child(2) {
+  margin-top: -10px; /* 두 번째 자식 요소를 위로 10px 이동시킵니다. */
+}
+
+.post-board article:nth-child(3) {
+  margin-top: 20px;
+}
+
+.post-board article:nth-child(4) {
+  margin-left: -20px; /* 네 번째 자식 요소를 오른쪽으로 20px 이동시킵니다. */
+}
+
+.post-board article:nth-child(5) {
+  margin-top: 20px;
+}
+
+.postit {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 296px;
+  height: 249px;
+  padding: 32px;
+  border-radius: 24px;
+}
+
+.postit img {
+  width: 56px;
+}
