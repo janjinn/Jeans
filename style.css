@@ -12,10 +12,25 @@ li {
   list-style-type: none;
 }
 
-/*----- social proof section -----*/
-.social-proof {
+section {
   text-align: center;
 }
+
+.content-title {
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.content {
+  font-size: 14px;
+}
+
+/*----- social proof section -----*/
 
 .logo-img {
   display: flex;
@@ -26,4 +41,34 @@ li {
 .logo-img li {
   margin: auto;
   text-align: center;
+}
+
+.social-proof-content {
+  font-size: 12px;
+}
+
+/*----- features section -----*/
+.features {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.advantages {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages img {
+  size: 48px;
+}
+
+.adv-itemes div {
+  margin-bottom: 20px;
+}
+
+.adv-itemes {
+  width: 30%;
 }
