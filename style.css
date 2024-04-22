@@ -47,14 +47,44 @@ body {
   color: rgb(255, 255, 255);
 }
 
-li {
+.social-proof li {
   list-style-type: none;
 }
 
-/*----- social proof section -----*/
-.social-proof {
+section {
   text-align: center;
 }
+
+.small-title {
+  font-size: 12px;
+}
+
+.content-title {
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.button-img {
+  /* Rectangle 1 */
+  position: static;
+  width: 180px;
+  height: 58px;
+  /* Inside Auto Layout */
+  margin: 0px 16px;
+  border-radius: 48px;
+  vertical-align: middle;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.content {
+  font-size: 14px;
+}
+
+/*----- social proof section -----*/
 
 .logo-img {
   display: flex;
@@ -65,4 +95,30 @@ li {
 .logo-img li {
   margin: auto;
   text-align: center;
+}
+
+/*----- features section -----*/
+.features {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.advantages {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages img {
+  size: 48px;
+}
+
+.adv-itemes div {
+  margin-bottom: 20px;
+}
+
+.adv-itemes {
+  width: 30%;
 }
