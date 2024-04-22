@@ -47,10 +47,6 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.social-proof li {
-  list-style-type: none;
-}
-
 section {
   text-align: center;
 }
@@ -85,6 +81,9 @@ section {
 }
 
 /*----- social proof section -----*/
+.social-proof li {
+  list-style-type: none;
+}
 
 .logo-img {
   display: flex;
@@ -121,4 +120,39 @@ section {
 
 .adv-itemes {
   width: 30%;
+}
+
+/*------ virtual -----*/
+.virtualtour {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.virtual-content {
+  margin: auto;
+  width: 768px;
+  height: auto;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 0px;
+}
+
+.viewvideo video {
+  width: 80%; /* body 태그의 너비와 동일하게 설정합니다. */
+  height: auto; /* 비디오의 세로 비율을 유지합니다. */
+  border-radius: 20px;
+}
+
+.virtualtour button {
+  width: 140px;
+  height: 45px;
+  margin: auto;
+  border: 1px solid rgb(29, 30, 28);
+  border-radius: 42px;
+  background: rgb(255, 255, 255);
 }
