@@ -7,6 +7,7 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
+
 .topbar {
   display: flex;
   justify-content: space-between;
@@ -44,4 +45,24 @@ body {
   border: 1px solid rgb(29, 30, 28);
   background-color: rgb(29, 30, 28);
   color: rgb(255, 255, 255);
+}
+
+li {
+  list-style-type: none;
+}
+
+/*----- social proof section -----*/
+.social-proof {
+  text-align: center;
+}
+
+.logo-img {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.logo-img li {
+  margin: auto;
+  text-align: center;
 }
