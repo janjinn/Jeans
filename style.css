@@ -8,7 +8,7 @@ body {
   padding: 0 20px;
 }
 
-li {
+.social-proof li {
   list-style-type: none;
 }
 
@@ -16,9 +16,24 @@ section {
   text-align: center;
 }
 
+.small-title {
+  font-size: 12px;
+}
+
 .content-title {
   font-weight: bold;
   font-size: 48px;
+}
+
+.button-img {
+  /* Rectangle 1 */
+  position: static;
+  width: 180px;
+  height: 58px;
+  /* Inside Auto Layout */
+  margin: 0px 16px;
+  border-radius: 48px;
+  vertical-align: middle;
 }
 
 .title {
@@ -41,10 +56,6 @@ section {
 .logo-img li {
   margin: auto;
   text-align: center;
-}
-
-.social-proof-content {
-  font-size: 12px;
 }
 
 /*----- features section -----*/
