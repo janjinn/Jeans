@@ -348,6 +348,10 @@ header .black-button {
     justify-content: space-around;
     gap: 5px;
   }
+  .post-board article {
+    width: 80%;
+    max-width: 250px;
+  }
   .post-board article:nth-child(2) {
     margin-top: 0;
   }
