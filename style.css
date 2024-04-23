@@ -202,18 +202,29 @@ header .black-button {
   width: 30%;
 }
 
+@media (max-width: 768px) {
+  .features .content-title {
+    font-size: 24px;
+  }
+
+  .adv-itemes {
+    width: 100vw;
+  }
+}
+
 /*------ virtual section -----*/
+
 .virtualtour {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   gap: 80px;
   margin: 112px 0;
+  text-align: center;
 }
 
 .virtual-content {
   margin: auto;
-  width: 768px;
   height: auto;
   /* 자동 레이아웃 */
   display: flex;
@@ -234,6 +245,21 @@ header .black-button {
   height: 45px;
   margin: auto;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .virtualtour .content-title {
+    font-size: 48px;
+  }
+
+  .virtual-content {
+    text-align: center;
+  }
+
+  .viewvideo iframe {
+    width: 80vw;
+    height: auto;
+  }
 }
 
 /*----- testimonial section -----*/
@@ -273,6 +299,28 @@ header .black-button {
   margin-top: 20px;
 }
 
+@media (max-width: 768px) {
+  .post-board {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+  }
+  .post-board article:nth-child(2) {
+    margin-top: 0;
+  }
+  .post-board article:nth-child(3) {
+    margin-top: 0;
+  }
+  .post-board article:nth-child(4) {
+    margin-left: 0;
+  }
+  .post-board article:nth-child(5) {
+    margin-top: 0;
+  }
+}
 .postit {
   display: flex;
   flex-direction: column;
@@ -382,13 +430,16 @@ header .black-button {
   align-items: center;
   gap: 24px;
 }
+
 .cta .content-title {
   display: inline;
   font-size: 96px;
 }
 
-.cta .content {
-  width: 639px;
+@media (max-width: 768px) {
+  .cta .content-title {
+    font-size: 48px;
+  }
 }
 
 .cta .black-button {
@@ -513,20 +564,18 @@ footer .footer-bottom {
   gap: 24px;
 }
 
-.blog .content {
-  width: 520px;
-}
-
 .chronicles {
   display: flex;
-  justify-content: space-between;
   gap: 32px;
+  justify-content: space-around;
 }
 
 .chr-itemes {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 24px;
+  justify-content: space-between;
 }
 
 .chr-itemes img {
@@ -570,4 +619,23 @@ footer .footer-bottom {
 
 .preview .read-more {
   font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .blog .content-title {
+    font-size: 24px;
+  }
+
+  .chr-itemes img {
+    width: 95vw;
+  }
+
+  .chronicles {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+  }
 }
