@@ -641,6 +641,7 @@ footer .footer-bottom {
   footer {
     display: flex;
     flex-direction: column;
+    padding-top: 32px;
   }
   footer .card {
     flex-direction: column;
@@ -758,6 +759,9 @@ footer .footer-bottom {
 }
 
 @media (max-width: 768px) {
+  .blog {
+    margin-bottom: 64px;
+  }
   .blog .content-title {
     font-size: 24px;
   }
