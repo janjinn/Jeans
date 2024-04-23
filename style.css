@@ -665,6 +665,7 @@ footer .footer-bottom {
   .footer-bottom ul {
     padding: 0;
     gap: 20px;
+    justify-content: space-around;
   }
 }
 
