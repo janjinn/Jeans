@@ -74,6 +74,9 @@ body {
   border-radius: 42px;
   display: inline-block;
   cursor: pointer;
+  &:hover {
+    background-color: rgb(237, 237, 237);
+  }
 }
 .black-button {
   border: 1px solid rgb(29, 30, 28);
@@ -82,6 +85,9 @@ body {
   border-radius: 42px;
   display: inline-block;
   cursor: pointer;
+  &:hover {
+    background-color: rgb(74, 74, 68);
+  }
 }
 
 section {
@@ -342,6 +348,10 @@ header .black-button {
     justify-content: space-around;
     gap: 5px;
   }
+  .post-board article {
+    width: 80%;
+    max-width: 250px;
+  }
   .post-board article:nth-child(2) {
     margin-top: 0;
   }
@@ -449,10 +459,14 @@ header .black-button {
   }
 }
 
+/*------ faq -----*/
+.faq-main .title {
+  width: 90%;
+}
 .faq-main .detail {
   color: rgb(29, 30, 28);
   margin-top: 30px;
-  width: 391px;
+  width: 70%;
   font-size: 14px;
   font-weight: 400;
   line-height: 180%;
@@ -485,6 +499,34 @@ header .black-button {
 .faq .arrow-button img {
   margin-left: 2px;
   margin-top: 1px;
+}
+@media (max-width: 850px) {
+  .faq .small-title {
+    text-align: center;
+  }
+  .faq-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .faq-main .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 140%;
+  }
+  .faq-main .detail {
+    text-align: center;
+    width: 100%;
+  }
+  .detail:nth-child(2) {
+    text-align: left;
+  }
+  .faq-question {
+    gap: 10px;
+  }
 }
 
 /*----- CTA section ---*/
@@ -605,6 +647,38 @@ footer .footer-bottom {
 .footer-bottom ul li a {
   color: rgb(29, 30, 28);
 }
+@media (max-width: 780px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+  }
+  footer .card {
+    flex-direction: column;
+  }
+  footer .card-input {
+    display: block;
+  }
+  footer .card-left .white-button {
+    margin-top: 24px;
+  }
+  footer .card-right {
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+  }
+  footer .card-menu:first-child {
+    margin-top: 40px;
+  }
+  footer .footer-bottom {
+    display: block;
+  }
+  .footer-bottom ul {
+    padding: 0;
+    gap: 20px;
+    justify-content: space-around;
+  }
+}
 
 /*----- Blog section -----*/
 .blog {
@@ -695,6 +769,9 @@ footer .footer-bottom {
 }
 
 @media (max-width: 768px) {
+  .blog {
+    margin-bottom: 64px;
+  }
   .blog .content-title {
     font-size: 24px;
   }
@@ -710,5 +787,8 @@ footer .footer-bottom {
     align-items: center;
     justify-content: space-around;
     gap: 5px;
+  }
+  .blog .white-button {
+    margin-top: -56px;
   }
 }
