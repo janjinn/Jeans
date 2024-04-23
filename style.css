@@ -156,7 +156,7 @@ header .black-button {
   font-size: 14px;
   font-weight: 100;
 }
-header .header-img {
+.side-img {
   width: 50%;
   min-width: 320px;
 }
@@ -388,6 +388,20 @@ header .header-img {
   font-weight: 700;
   margin-top: 16px;
 }
+@media (max-width: 800px) {
+  .small-title {
+    text-align: center;
+  }
+  .statics-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .statics-main .title {
+    font-size: 24px;
+    text-align: center;
+  }
+}
 .feature-box {
   display: flex;
   list-style: none;
@@ -410,6 +424,31 @@ header .header-img {
   font-size: 14px;
   font-weight: 400;
 }
+.media-display {
+  display: none;
+}
+@media (max-width: 800px) {
+  .feature-box {
+    justify-content: center;
+    text-align: center;
+  }
+  .feature-box .title {
+    font-size: 48px;
+    text-align: left;
+    margin-left: 40px;
+  }
+  #lime-dot {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+  .media-display {
+    display: inline;
+  }
+  .statics .side-img {
+    margin-top: 40px;
+  }
+}
+
 .faq-main .detail {
   color: rgb(29, 30, 28);
   margin-top: 30px;
