@@ -637,6 +637,36 @@ footer .footer-bottom {
 .footer-bottom ul li a {
   color: rgb(29, 30, 28);
 }
+@media (max-width: 780px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .card {
+    flex-direction: column;
+  }
+  footer .card-input {
+    display: block;
+  }
+  footer .card-left .white-button {
+    margin-top: 24px;
+  }
+  footer .card-right {
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+  }
+  footer .card-menu:first-child {
+    margin-top: 40px;
+  }
+  footer .footer-bottom {
+    display: block;
+  }
+  .footer-bottom ul {
+    padding: 0;
+    gap: 20px;
+  }
+}
 
 /*----- Blog section -----*/
 .blog {
