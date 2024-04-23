@@ -196,6 +196,51 @@ section {
   cursor: pointer;
 }
 
+/*----- testimonial section -----*/
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.post-board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.post-board article:nth-child(2) {
+  margin-top: -10px; /* 두 번째 자식 요소를 위로 10px 이동시킵니다. */
+}
+
+.post-board article:nth-child(3) {
+  margin-top: 20px;
+}
+
+.post-board article:nth-child(4) {
+  margin-left: -20px; /* 네 번째 자식 요소를 오른쪽으로 20px 이동시킵니다. */
+}
+
+.post-board article:nth-child(5) {
+  margin-top: 20px;
+}
+
+.postit {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 296px;
+  height: 249px;
+  padding: 32px;
+  border-radius: 24px;
+}
+
+.postit img {
+  width: 56px;
+}
+
 /*------ statics -----*/
 .statics,
 .faq {
@@ -272,4 +317,31 @@ section {
 .faq .arrow-button img {
   margin-left: 2px;
   margin-top: 1px;
+=======
+
+/*----- CTA section ---*/
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+}
+.cta .content-title {
+  display: inline;
+  font-size: 96px;
+}
+
+.cta .content {
+  width: 639px;
+}
+
+.cta button {
+  width: 140px;
+  height: 45px;
+  margin: auto;
+  border: 1px solid rgb(29, 30, 28);
+  border-radius: 42px;
+  background: black;
+  color: white;
 }
