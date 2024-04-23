@@ -193,18 +193,22 @@ section {
 }
 
 /*------ statics -----*/
-.statics {
+.statics,
+.faq {
   margin: 112px 0;
 }
-.statics-main {
+.statics-main,
+.faq-main {
   display: flex;
   justify-content: space-between;
   text-align: left;
   align-items: center;
 }
-.statics-main .title {
+.statics-main .title,
+.faq-main .title {
   font-size: 48px;
   font-weight: 700;
+  margin-top: 16px;
 }
 .feature-box {
   display: flex;
@@ -227,4 +231,40 @@ section {
 .feature-explain {
   font-size: 14px;
   font-weight: 400;
+}
+.faq-main .detail {
+  color: rgb(29, 30, 28);
+  margin-top: 30px;
+  width: 391px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 180%;
+}
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  gap: 5em;
+}
+.faq-question-text {
+  color: rgb(29, 30, 28);
+  font-size: 14px;
+  font-weight: 100;
+}
+.faq-line {
+  text-align: left;
+  margin: 20px 0;
+  width: 136px;
+}
+.faq .arrow-button {
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.faq .arrow-button img {
+  margin-left: 2px;
+  margin-top: 1px;
 }
