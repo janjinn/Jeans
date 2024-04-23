@@ -33,6 +33,7 @@ body {
 .nav-menu button {
   width: 85px;
   height: 45px;
+  cursor: pointer;
 }
 
 .white-button {
@@ -40,6 +41,7 @@ body {
   border: 1px solid rgb(29, 30, 28);
   border-radius: 42px;
   display: inline-block;
+  cursor: pointer;
 }
 .black-button {
   border: 1px solid rgb(29, 30, 28);
@@ -47,6 +49,7 @@ body {
   color: rgb(255, 255, 255);
   border-radius: 42px;
   display: inline-block;
+  cursor: pointer;
 }
 header {
   display: flex;
@@ -190,6 +193,7 @@ section {
   border: 1px solid rgb(29, 30, 28);
   border-radius: 42px;
   background: rgb(255, 255, 255);
+  cursor: pointer;
 }
 
 /*------ statics -----*/
@@ -263,6 +267,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .faq .arrow-button img {
   margin-left: 2px;
