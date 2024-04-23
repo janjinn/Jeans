@@ -773,4 +773,7 @@ footer .footer-bottom {
     justify-content: space-around;
     gap: 5px;
   }
+  .blog .white-button {
+    margin-top: -56px;
+  }
 }
