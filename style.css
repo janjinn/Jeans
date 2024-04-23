@@ -182,9 +182,9 @@ section {
   padding: 0px;
 }
 
-.viewvideo video {
+.viewvideo iframe {
   width: 80%; /* body 태그의 너비와 동일하게 설정합니다. */
-  height: auto; /* 비디오의 세로 비율을 유지합니다. */
+  height: 550px; /* 비디오의 세로 비율을 유지합니다. */
   border-radius: 20px;
 }
 
