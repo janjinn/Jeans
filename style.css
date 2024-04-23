@@ -188,13 +188,10 @@ section {
   border-radius: 20px;
 }
 
-.virtualtour button {
+.virtualtour .white-button {
   width: 140px;
   height: 45px;
   margin: auto;
-  border: 1px solid rgb(29, 30, 28);
-  border-radius: 42px;
-  background: rgb(255, 255, 255);
   cursor: pointer;
 }
 
@@ -338,13 +335,10 @@ section {
   width: 639px;
 }
 
-.cta button {
+.cta .black-button {
   width: 140px;
   height: 45px;
   margin: auto;
-  border: 1px solid rgb(29, 30, 28);
-  border-radius: 42px;
-  background: black;
   color: white;
 }
 
